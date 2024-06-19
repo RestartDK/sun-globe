@@ -4,3 +4,9 @@ export interface Project {
 	name: string;
 	country: string;
 }
+
+export interface Country {
+	lat: number;
+	lng: number;
+	name: string;
+}
